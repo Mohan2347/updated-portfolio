@@ -10,7 +10,6 @@ import Education from './components/Education';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Background from './components/Background';
-import Experience from './components/Experience';
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -43,16 +42,16 @@ function App() {
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300">
       <Background />
-      <Navbar isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
+      {/* <Navbar isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
       <Hero />
       <About />
       <Skills />
-      {/* <Experience /> */}
+      
       <Projects />
       <Certificates />
       <Education />
       <Contact />
-      <Footer isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
+      <Footer isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} /> */}
     </div>
     
   );

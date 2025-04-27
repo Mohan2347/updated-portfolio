@@ -10,7 +10,6 @@ import Education from './components/Education';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Background from './components/Background';
-import Experience from './components/Experience';
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -47,7 +46,7 @@ function App() {
       <Hero />
       <About />
       <Skills />
-      {/* <Experience /> */}
+      
       <Projects />
       <Certificates />
       <Education />
