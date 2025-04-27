@@ -53,7 +53,6 @@ function App() {
       <Contact />
       <Footer isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} /> */}
     </div>
-    {/* <Experience /> */}
   );
 }
 

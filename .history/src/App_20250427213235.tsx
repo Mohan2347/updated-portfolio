@@ -46,14 +46,13 @@ function App() {
       <Hero />
       <About />
       <Skills />
-      
+      {/* <Experience /> */}
       <Projects />
       <Certificates />
       <Education />
       <Contact />
       <Footer isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} /> */}
     </div>
-    {/* <Experience /> */}
   );
 }
 
